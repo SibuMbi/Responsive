@@ -14,9 +14,8 @@ background-position: center;
 }
 
 .nav {
- float: left;
-display: flex;
-align-items: left;
+display: flex; 
+align-items: center;
 justify-content: space-between;
 text-align: center;
 padding-top: 60px;
