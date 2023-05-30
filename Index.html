@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles/index.css">
+<script src="https://kit.fontawesome.com/12e82f9592.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="styles/normailze.css">
+<link rel="stylesheet" href="styles/index.css">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap" rel="stylesheet">
 <title>Leisure</title>
 </head>
@@ -15,7 +16,7 @@
 <div class="girl">
 <nav>
 <h2 class="logo">The <span> Hike.</span></h2>
-<ul>
+<ul id="nav" class="nav">
 <li><a href="" class="active">Home</a></li>
 <li><a href="" >About</a></li>
 <li><a href="">Gallery</a></li>
@@ -25,27 +26,21 @@
 </a>
 </ul>
 
-
  <h2>Summer Days</h2>
  <p>When it's sunny out a morning hike is a must!</p>
-
-
-
-
-<script>
-function myFunction() {
-var x = document.getElementById("myTopnav");
-if (x.className === "navbar") {
-x.className += " responsive";
-} else {
-x.className = "navbar";
-}
-}
-</script>
 
 <button type="button">Follow Me</button>
 </nav>
 </div>
-
+<script>
+ function myFunction() {
+ var x = document.getElementById("nav");
+ if (x.className === "nav") {
+ x.className += " responsive";
+ } else {
+ x.className = "nav";
+ }
+ }
+ </script>
 </body>
 </html>
